@@ -1,5 +1,6 @@
 # Ubuntu  with Java 8 installed.
-# Build image with:  docker build  -f Dockerfile_Java8.
+# Build image with:  docker build  -f Dockerfile_Java8  --rm=true -t=java8
+# Run with: docker run -it java8
 FROM ubuntu
 
 MAINTAINER Mike
